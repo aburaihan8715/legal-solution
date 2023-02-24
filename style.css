@@ -1,0 +1,33 @@
+/* 
+fonts:
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+font-family: 'EB Garamond', serif;
+font-family: 'Poppins', sans-serif;
+
+font awesome:
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<i class="fa-regular fa-paper-plane"></i>
+<i class="fa-solid fa-angle-right"></i>
+
+html entity:
+&rarr;	
+
+
+colors:
+--primary:#B68C5A;
+
+--gray1:#263238;
+--gray2:#414040;
+--gray3:#707070;
+--gray4:#CFCFCF;
+
+--black1: #111111
+--white1:#fff;
+--white2:#F3F3F3;
+
+--gradient1:linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+*/
+
+
