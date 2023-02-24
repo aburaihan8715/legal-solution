@@ -46,12 +46,18 @@ colors:
 --white2:#F3F3F3;
 --gradient1:linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
-
+/* reset */
 body{
   font-family: 'Poppins', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
 font-family: 'EB Garamond', serif;
+color: var(--gray2);
+}
+
+/* reusable class */
+.section-gap{
+  margin-bottom: 80px;
 }
 
 
@@ -61,6 +67,9 @@ font-family: 'EB Garamond', serif;
   text-transform: capitalize;
   padding: 8px 16px;
   color: var(--gray3);
+}
+#header .custom-link:hover{
+  color: var(--primary);
 }
 #header .btn-custom{
   background-color: var(--primary);
@@ -81,4 +90,23 @@ font-family: 'EB Garamond', serif;
 #banner p{
   color: var(--gray4);
   
+}
+
+/* custom styles for services */
+#services .custom-r-arrow{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  background-color: var(--primary);
+  cursor: pointer;
+
+
+}
+
+#services .custom-hover:hover{
+  background-image: var(--gradient1);
+  box-shadow: 0px 0px 0px 1px var(--primary);
+
 }
