@@ -124,7 +124,26 @@ h6 {
   color: var(--gray2);
 }
 
+/* custom css for contact us */
+#contact .btn-custom{
+  background-color: var(--primary);
+}
+
 /* custom style for footer */
 #footer{
   background-color: var(--black1);
+}
+
+#footer .btn-custom{
+  background-color: var(--primary);
+}
+
+#footer p, #footer .custom-link{
+  color: var(--gray4);
+}
+#footer h6{
+  color: var(--white1);
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 24px;
 }

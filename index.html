@@ -310,7 +310,7 @@
           </div>
 
           <div class="row">
-            <div class="col-md-6 bg-secondary">
+            <div class="col-md-6">
               <div class="h-100">
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -408,7 +408,7 @@
             </div>
             </div>
 
-            <div class="col-md-6 bg-danger">
+            <div class="col-md-6">
               <div class="d-flex align-items-center justify-content-center h-100">
                 <img class="" height="450" src="images/faq.png" alt="man standing with interrogation sign" />
               </div>
@@ -417,6 +417,52 @@
         </div>
       </section>
       <!-- faq section end -->
+
+      <!-- contact section start -->
+      <section id="contact" class="section-gap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+              <h2 class="display-5 fw-semibold text-capitalize">contact us</h2>
+              <p class="mb-5">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                humour.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="border p-4">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your name</label>
+                <input type="text" class="form-control" id="name" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your email</label>
+                <input type="email" class="form-control" id="email" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your message</label>
+                <textarea class="form-control" id="message" rows="8"></textarea>
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-custom text-white">Submit</button>
+              </div>
+            </div>
+          </div>
+
+
+            <div class="col-md-6 border">
+              <iframe class="p-2 w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82238888563!2d90.27919223336148!3d23.780887458188037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2z4Kai4Ka-4KaV4Ka-!5e0!3m2!1sbn!2sbd!4v1677309381497!5m2!1sbn!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- contact section end -->
     </main>
     <!-- ==========main end============ -->
 
@@ -425,18 +471,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <h6><img src="images/logo.png" alt="brand image"></h6>
+            <h6 class="mb-4"><img src="images/logo.png" alt="brand image"></h6>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
           </div>
 
-          <div class="col-md-2">
+          <div class="col-md-3">
             <h6>useful link</h6>
             <nav class="nav flex-column">
-              <a class="nav-link" href="#">home</a>
-              <a class="nav-link" href="#">about us</a>
-              <a class="nav-link" href="#">cases</a>
-              <a class="nav-link" href="#">blog</a>
-              <a class="nav-link" href="#">contact us</a>
+              <a class="nav-link custom-link" href="#">home</a>
+              <a class="nav-link custom-link" href="#">about us</a>
+              <a class="nav-link custom-link" href="#">cases</a>
+              <a class="nav-link custom-link" href="#">blog</a>
+              <a class="nav-link custom-link" href="#">contact us</a>
             </nav>
           </div>
 
@@ -447,14 +493,13 @@
             <p>info@gmail.com<br>info@gmail.com</p>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-3">
             <h6>subscribe</h6>
-            <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2 py-3" type="email" placeholder="email address"/>
-              <button class="btn text-white" type="submit">
-                Search
-                <i class="fa-regular fa-paper-plane"></i>
+            <p class="mb-5">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+            <form class="d-flex position-relative" role="search">
+              <input class="form-control w-75 me-2 py-3" type="email" placeholder="email address"/>
+              <button class="position-absolute h-100 end-0 w-25 translate-middle-x btn text-white btn-custom" type="submit">
+                <i class="fs-5 fa-regular fa-paper-plane"></i>
               </button>
             </form>
           </div>
